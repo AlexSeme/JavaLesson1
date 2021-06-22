@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InputOutputHandler",
+            "request": "launch",
+            "mainClass": "InputOutputHandler",
+            "projectName": "test_d657531a"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

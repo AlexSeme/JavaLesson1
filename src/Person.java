@@ -1,5 +1,3 @@
-import java.io.*;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Person {
@@ -41,15 +39,14 @@ public class Person {
   }
 
   public static void newFile(ArrayList myPersons) throws Exception {
-    FileWriter nFile = new FileWriter("sample1.txt");
     /*
-    System.out.println(myPersons.get(i));
+    FileWriter nFile = new FileWriter("sample1.txt");
+    System.out.println(Arrays.toString(myPersons.get(0)));
     for (int i = 0; i < myPersons.size(); i++) {
       //nFile.write("First Name: " + myPersons.get(i).getFirstName() + " Id: " + myPersons.get(i).getId() + " Height: " + myPersons.get(i).getHeight() + "\n");
     }
-    */
-    myPersons.forEach(s -> System.out.println(s.getFirstName()));
     nFile.close();
+    */
   }
 
 }
